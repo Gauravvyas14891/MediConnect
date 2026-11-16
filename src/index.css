@@ -1,0 +1,297 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    letter-spacing: -0.02em;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  h1, h2, h3, h4 {
+    letter-spacing: -0.04em;
+  }
+}
+
+/* Hide default cursor on desktop fine pointers where DifferenceCursor renders */
+@media (hover: hover) and (pointer: fine) {
+  html.has-difference-cursor,
+  html.has-difference-cursor *,
+  html.has-difference-cursor *::before,
+  html.has-difference-cursor *::after {
+    cursor: none !important;
+  }
+}
+
+/* Editorial Studio Motion Utilities */
+.ease-editorial {
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes editorial-marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-editorial-marquee {
+  display: flex;
+  width: max-content;
+  animation: editorial-marquee 30s linear infinite;
+}
+
+.editorial-marquee-wrap:hover .animate-editorial-marquee {
+  animation-play-state: paused;
+}
+
+@keyframes letter-slide-up {
+  0% {
+    transform: translate3d(0, 105%, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(0, 0%, 0);
+    opacity: 1;
+  }
+}
+
+.animate-letter-reveal {
+  display: inline-block;
+  transform: translate3d(0, 105%, 0);
+  opacity: 0;
+  animation: letter-slide-up 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Minimalist monochrome scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.18);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* ============================================================================
+   SCOPED MONOCHROME EDITORIAL PORTAL OVERRIDES
+   Harmonizes internal portal screens with the #FFFFFF / #000000 studio theme
+   while preserving full legibility across cards, buttons, badges, and modals.
+   ============================================================================ */
+.editorial-portal {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Surfaces */
+.editorial-portal .bg-\[\#080B12\],
+.editorial-portal .bg-\[\#080B12\]\/80,
+.editorial-portal .bg-\[\#080B12\]\/60,
+.editorial-portal .bg-\[\#0B0F19\],
+.editorial-portal .bg-\[\#0B0F19\]\/95 {
+  background-color: #ffffff !important;
+}
+
+.editorial-portal .bg-\[\#0F131C\],
+.editorial-portal .bg-\[\#0F131C\]\/40,
+.editorial-portal .bg-\[\#0A0D15\] {
+  background-color: #ffffff !important;
+}
+
+.editorial-portal .bg-\[\#141923\],
+.editorial-portal .bg-\[\#141923\]\/60,
+.editorial-portal .bg-\[\#141923\]\/40,
+.editorial-portal .bg-\[\#141923\]\/30,
+.editorial-portal .bg-\[\#1A2230\],
+.editorial-portal .bg-\[\#1E293B\],
+.editorial-portal .bg-slate-800 {
+  background-color: #f7f7f7 !important;
+}
+
+.editorial-portal .hover\:bg-\[\#141923\]:hover,
+.editorial-portal .hover\:bg-\[\#1A2230\]:hover,
+.editorial-portal .hover\:bg-slate-800:hover {
+  background-color: #efefef !important;
+}
+
+.editorial-portal .bg-gradient-to-br,
+.editorial-portal .bg-gradient-to-r,
+.editorial-portal .bg-gradient-to-tr {
+  background-image: none !important;
+}
+
+/* Borders: strict 1px #000000 at 10% opacity */
+.editorial-portal [class*="border-\[\#1E293B\]"],
+.editorial-portal [class*="border-slate-7"],
+.editorial-portal [class*="border-slate-8"],
+.editorial-portal [class*="border-sky-"],
+.editorial-portal [class*="border-teal-"],
+.editorial-portal [class*="border-purple-"],
+.editorial-portal [class*="border-emerald-"],
+.editorial-portal [class*="border-amber-"] {
+  border-color: rgba(0, 0, 0, 0.12) !important;
+}
+
+.editorial-portal [class*="divide-\[\#1E293B\]"] > :not(:last-child) {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Primary solid action buttons -> High contrast #0A0A0A with #FFFFFF text */
+.editorial-portal .bg-sky-500,
+.editorial-portal .bg-teal-500,
+.editorial-portal .bg-purple-500,
+.editorial-portal .bg-emerald-500,
+.editorial-portal .bg-amber-500,
+.editorial-portal .from-sky-500,
+.editorial-portal .from-teal-400 {
+  background-color: #0a0a0a !important;
+  color: #ffffff !important;
+}
+
+.editorial-portal .bg-sky-500:hover,
+.editorial-portal .bg-teal-500:hover,
+.editorial-portal .bg-purple-500:hover,
+.editorial-portal .from-sky-500:hover,
+.editorial-portal .from-teal-400:hover {
+  background-color: #262626 !important;
+  color: #ffffff !important;
+}
+
+.editorial-portal .bg-sky-500 *,
+.editorial-portal .bg-teal-500 *,
+.editorial-portal .bg-purple-500 *,
+.editorial-portal .from-sky-500 *,
+.editorial-portal .from-teal-400 * {
+  color: #ffffff !important;
+}
+
+/* Tinted chips & subtle panels -> soft monochrome #F5F5F5 */
+.editorial-portal [class*="bg-sky-500\/"],
+.editorial-portal [class*="bg-teal-500\/"],
+.editorial-portal [class*="bg-purple-500\/"],
+.editorial-portal [class*="bg-purple-950\/"],
+.editorial-portal [class*="bg-emerald-500\/"],
+.editorial-portal [class*="bg-amber-500\/"],
+.editorial-portal [class*="bg-red-500\/"],
+.editorial-portal [class*="bg-red-950\/"],
+.editorial-portal [class*="bg-sky-900\/"] {
+  background-color: #f4f4f4 !important;
+  color: #000000 !important;
+}
+
+.editorial-portal .bg-red-500 {
+  background-color: #0a0a0a !important;
+  color: #ffffff !important;
+}
+
+.editorial-portal .bg-red-500 * {
+  color: #ffffff !important;
+}
+
+/* Typography colors -> #000000 primary, #525252 secondary */
+.editorial-portal .text-\[\#F8FAFC\],
+.editorial-portal .text-white,
+.editorial-portal .text-slate-100,
+.editorial-portal .text-slate-200 {
+  color: #000000 !important;
+}
+
+.editorial-portal .text-slate-300,
+.editorial-portal .text-slate-400,
+.editorial-portal .text-slate-500 {
+  color: #525252 !important;
+}
+
+.editorial-portal .text-sky-400,
+.editorial-portal .text-sky-300,
+.editorial-portal .text-teal-400,
+.editorial-portal .text-teal-300,
+.editorial-portal .text-purple-400,
+.editorial-portal .text-purple-300,
+.editorial-portal .text-purple-200,
+.editorial-portal .text-emerald-400,
+.editorial-portal .text-emerald-300,
+.editorial-portal .text-amber-400,
+.editorial-portal .text-amber-300,
+.editorial-portal .text-red-400,
+.editorial-portal .text-red-300 {
+  color: #000000 !important;
+}
+
+.editorial-portal .fill-red-400 {
+  fill: #000000 !important;
+}
+
+.editorial-portal [class*="border-red-"] {
+  border-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.editorial-portal .border-2,
+.editorial-portal .border-4 {
+  border-width: 1px !important;
+}
+
+.editorial-portal .hover\:text-white:hover,
+.editorial-portal .hover\:text-slate-200:hover,
+.editorial-portal .hover\:text-sky-400:hover,
+.editorial-portal .hover\:text-sky-300:hover,
+.editorial-portal .hover\:text-teal-400:hover,
+.editorial-portal .hover\:text-teal-300:hover,
+.editorial-portal .hover\:text-red-400:hover,
+.editorial-portal .hover\:text-red-300:hover {
+  color: #000000 !important;
+}
+
+/* Ensure dark action buttons keep white text */
+.editorial-portal .bg-\[\#0A0A0A\],
+.editorial-portal .bg-\[\#0A0A0A\] * {
+  color: #ffffff !important;
+}
+
+/* Editorial grayscale-to-color hover discipline on portal media */
+.editorial-portal img {
+  filter: grayscale(100%);
+  transition: filter 700ms cubic-bezier(0.16, 1, 0.3, 1), transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.editorial-portal img:hover,
+.editorial-portal .group:hover img {
+  filter: grayscale(0%);
+}
+
+/* Form inputs inside portal */
+.editorial-portal input,
+.editorial-portal select,
+.editorial-portal textarea {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+.editorial-portal input::placeholder,
+.editorial-portal textarea::placeholder {
+  color: #737373 !important;
+}
+
+.editorial-portal input:focus,
+.editorial-portal select:focus,
+.editorial-portal textarea:focus {
+  border-color: #000000 !important;
+}

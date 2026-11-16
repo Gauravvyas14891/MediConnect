@@ -1,0 +1,287 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+5 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R] /Count 3 >>
+endobj
+6 0 obj
+<< /Length 6204 >>
+stream
+q 0.040 0.040 0.040 rg 0.00 732.00 595.00 110.00 re f Q
+BT 0.680 0.680 0.680 rg /F3 8.50 Tf 48.00 804.00 Td (SRS-MC-2026) Tj ET
+BT 1.000 1.000 1.000 rg /F2 18.50 Tf 48.00 778.00 Td (SOFTWARE REQUIREMENTS SPECIFICATION \(SRS\)) Tj ET
+BT 0.780 0.780 0.780 rg /F1 9.00 Tf 48.00 756.00 Td (MediConnect Platform  |  Medi-Caps University, Indore  |  v2.4  |  Author: Gourav Vyas \(en24cs3040061@medicaps.ac.in\)) Tj ET
+BT 0.450 0.450 0.450 rg /F3 8.50 Tf 48.00 703.00 Td (01) Tj ET
+BT 0.040 0.040 0.040 rg /F2 11.50 Tf 70.00 703.00 Td (Introduction & System Purpose) Tj ET
+q 0.080 0.080 0.080 RG 0.75 w 48.00 698.00 m 547.00 698.00 l S Q
+BT 0.160 0.160 0.160 rg /F1 9.00 Tf 48.00 684.00 Td (This Software Requirements Specification \(SRS\) defines the technical architecture, functional behaviors, data schemas,) Tj ET
+BT 0.160 0.160 0.160 rg /F1 9.00 Tf 48.00 671.40 Td (access-control invariants, and verification criteria for MediConnect v2.4. The platform operates as a client-first React +) Tj ET
+BT 0.160 0.160 0.160 rg /F1 9.00 Tf 48.00 658.80 Td (TypeScript Single Page Application \(SPA\) with versioned persistent browser storage, deterministic scoring, DataURL) Tj ET
+BT 0.160 0.160 0.160 rg /F1 9.00 Tf 48.00 646.20 Td (certificate attachment handling, and credential-gated role governance.) Tj ET
+BT 0.450 0.450 0.450 rg /F3 8.50 Tf 48.00 625.60 Td (02) Tj ET
+BT 0.040 0.040 0.040 rg /F2 11.50 Tf 70.00 625.60 Td (System Architecture & Technology Stack) Tj ET
+q 0.080 0.080 0.080 RG 0.75 w 48.00 620.60 m 547.00 620.60 l S Q
+q 0.950 0.950 0.950 rg 48.00 590.60 499.00 21.00 re f Q
+q 0.150 0.150 0.150 RG 0.70 w 48.00 611.60 m 547.00 611.60 l S Q
+q 0.650 0.650 0.650 RG 0.60 w 48.00 590.60 m 547.00 590.60 l S Q
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 54.50 597.10 Td (LAYER) Tj ET
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 152.50 597.10 Td (TECHNOLOGY / MODULE) Tj ET
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 304.50 597.10 Td (TECHNICAL RESPONSIBILITY) Tj ET
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 579.10 Td (UI & Rendering) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 579.10 Td (React 19.0.1, TypeScript, Vite 8.3.0) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 304.50 579.10 Td (Modular component architecture across Editorial Landing,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 304.50 568.10 Td (Auth, 7 Student Views, and Admin Governance Dashboard.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 558.60 m 547.00 558.60 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 548.10 Td (Styling & Motion) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 548.10 Td (Tailwind CSS v4.3.3, Inter &) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 537.10 Td (JetBrains Mono) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 304.50 548.10 Td (Monochrome editorial palette) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 304.50 537.10 Td (\(#FFFFFF/#000000/#0A0A0A\), 1px borders,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 304.50 526.10 Td (cubic-bezier\(0.16,1,0.3,1\) reveals, DifferenceCursor.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 516.60 m 547.00 516.60 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 506.10 Td (State & Storage) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 506.10 Td (AppContext.tsx + versioned) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 495.10 Td (localStorage) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 304.50 506.10 Td (Centralized state synchronization \(students_v3, posts_v3,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 304.50 495.10 Td (challenges_v3, audit_logs_v2\) with student-1 credential) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 304.50 484.10 Td (migration.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 474.60 m 547.00 474.60 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 464.10 Td (Validation & Scoring) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 464.10 Td (collegeEmail.ts & scoring.ts) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 304.50 464.10 Td (Institutional regex parsing, 8-branch resolution, 100-pt) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 304.50 453.10 Td (algorithmic scoring, and 7-factor profile completion meter.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 443.60 m 547.00 443.60 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 433.10 Td (Media & Assets) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 433.10 Td (FileReader DataURL + local Vite) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 422.10 Td (assets) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 304.50 433.10 Td (Client-side PDF/PNG/JPG/WebP certificate encoding and) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 304.50 422.10 Td (local high-resolution challenge cover assets.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 412.60 m 547.00 412.60 l S Q
+BT 0.450 0.450 0.450 rg /F3 8.50 Tf 48.00 397.60 Td (03) Tj ET
+BT 0.040 0.040 0.040 rg /F2 11.50 Tf 70.00 397.60 Td (User Interfaces & Navigation Topology) Tj ET
+q 0.080 0.080 0.080 RG 0.75 w 48.00 392.60 m 547.00 392.60 l S Q
+q 0.100 0.100 0.100 rg 52.00 380.90 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 378.60 Td (Public Entry Gate: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (App.tsx mounts EditorialLandingView for unauthenticated sessions; Sign In / Register actions transition) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 366.40 Td (to LoginView with showcase return.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 354.30 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 352.00 Td (Authenticated Shell: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Navbar \(Cmd+K search trigger, notifications, role/user menu\), Desktop Sidebar, Mobile Bottom Nav,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 339.80 Td (and active view container.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 327.70 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 325.40 Td (Role-Scoped Admin Route: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (AdminDashboard renders strictly when activeTab === 'admin' AND both isAdmin and) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 313.20 Td (canAccessAdmin evaluate true.) Tj ET
+q 0.860 0.860 0.860 RG 0.60 w 48.00 42.00 m 547.00 42.00 l S Q
+BT 0.450 0.450 0.450 rg /F3 7.50 Tf 48.00 28.00 Td (MEDICONNECT CAMPUS NETWORK  |  MEDI-CAPS UNIVERSITY, INDORE) Tj ET
+BT 0.450 0.450 0.450 rg /F3 7.50 Tf 511.00 28.00 Td (PAGE 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R /F4 4 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 5679 >>
+stream
+BT 0.450 0.450 0.450 rg /F3 8.00 Tf 48.00 806.00 Td (SRS-MC-2026) Tj ET
+BT 0.050 0.050 0.050 rg /F2 8.50 Tf 437.00 806.00 Td (MediConnect Platform) Tj ET
+q 0.860 0.860 0.860 RG 0.75 w 48.00 798.00 m 547.00 798.00 l S Q
+BT 0.450 0.450 0.450 rg /F3 8.50 Tf 48.00 769.00 Td (04) Tj ET
+BT 0.040 0.040 0.040 rg /F2 11.50 Tf 70.00 769.00 Td (Functional Requirements Specification) Tj ET
+q 0.080 0.080 0.080 RG 0.75 w 48.00 764.00 m 547.00 764.00 l S Q
+q 0.950 0.950 0.950 rg 48.00 734.00 499.00 21.00 re f Q
+q 0.150 0.150 0.150 RG 0.70 w 48.00 755.00 m 547.00 755.00 l S Q
+q 0.650 0.650 0.650 RG 0.60 w 48.00 734.00 m 547.00 734.00 l S Q
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 54.50 740.50 Td (ID) Tj ET
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 98.50 740.50 Td (MODULE / FUNCTION) Tj ET
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 232.50 740.50 Td (SPECIFIED SYSTEM BEHAVIOR) Tj ET
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 722.50 Td (FR-01) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 98.50 722.50 Td (College Email Validator) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 98.50 711.50 Td (\(collegeEmail.ts\)) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 722.50 Td (Enforces /^en\\d{2}[a-z]{2}\\d{6,7}@medicaps\\.ac\\.in$/i. Extracts yearCode,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 711.50 Td (branchCode \(cs, ai, it, ec, ds, me, ce, ee\), and uppercase rollNumber.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 702.00 m 547.00 702.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 691.50 Td (FR-02) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 98.50 691.50 Td (Dual-Role Auth Guard) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 98.50 680.50 Td (\(AppContext.tsx\)) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 691.50 Td (Enforces password match on login. Only en24cs3040061@medicaps.ac.in \(pass:) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 680.50 Td (123456789\) sets canAccessAdmin=true and opens ProfileView with Admin Mode) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 669.50 Td (toggle.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 660.00 m 547.00 660.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 649.50 Td (FR-03) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 98.50 649.50 Td (Ranking Engine \(scoring.ts\)) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 649.50 Td (score = min\(40, cgpa*4\) + min\(20, sum\(4 + 0.5*gh + 0.5*demo\)\) + min\(20,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 638.50 Td (interns*10\) + min\(10, skills*0.4 + certs*2.5\) + min\(10, coding\). Re-ranks on) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 627.50 Td (mutation.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 618.00 m 547.00 618.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 607.50 Td (FR-04) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 98.50 607.50 Td (Certificate File Vault) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 98.50 596.50 Td (\(ProfileView.tsx\)) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 607.50 Td (Accepts PDF, PNG, JPG, WebP <= 3 MB via FileReader. Persists fileDataUrl,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 596.50 Td (fileName, fileType on Certification; provides in-app iframe/img preview and) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 585.50 Td (download.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 576.00 m 547.00 576.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 565.50 Td (FR-05) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 98.50 565.50 Td (Community & Moderation) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 98.50 554.50 Td (\(CommunityView\)) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 565.50 Td (Supports CreatePostModal, likes, nested comments, bookmarks, user reporting,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 554.50 Td (plus admin pin, lock, edit, and delete with AdminAuditLog persistence.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 545.00 m 547.00 545.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 534.50 Td (FR-06) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 98.50 534.50 Td (Challenges & Winners) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 98.50 523.50 Td (\(ChallengesView\)) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 534.50 Td (Manages registration, project repo/notes submission, admin disqualification with) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 523.50 Td (reason, and winner declaration awarding +pointsReward and badge.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 514.00 m 547.00 514.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 503.50 Td (FR-07) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 98.50 503.50 Td (Directory & Global Search) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 503.50 Td (Filters 100+ student records by branch, academic year, and skill keywords) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 492.50 Td (across paginated Discover/Leaderboard views and Cmd+K GlobalSearchModal.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 483.00 m 547.00 483.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 472.50 Td (FR-08) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 98.50 472.50 Td (Audit Trail Governance) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 98.50 461.50 Td (\(AdminDashboard\)) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 472.50 Td (Appends timestamped AdminAuditLog records for verify, edit, warn, suspend,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 232.50 461.50 Td (restore, delete, pin/lock, announcement, and winner actions.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 452.00 m 547.00 452.00 l S Q
+q 0.860 0.860 0.860 RG 0.60 w 48.00 42.00 m 547.00 42.00 l S Q
+BT 0.450 0.450 0.450 rg /F3 7.50 Tf 48.00 28.00 Td (MEDICONNECT CAMPUS NETWORK  |  MEDI-CAPS UNIVERSITY, INDORE) Tj ET
+BT 0.450 0.450 0.450 rg /F3 7.50 Tf 511.00 28.00 Td (PAGE 2) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R /F4 4 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 8382 >>
+stream
+BT 0.450 0.450 0.450 rg /F3 8.00 Tf 48.00 806.00 Td (SRS-MC-2026) Tj ET
+BT 0.050 0.050 0.050 rg /F2 8.50 Tf 437.00 806.00 Td (MediConnect Platform) Tj ET
+q 0.860 0.860 0.860 RG 0.75 w 48.00 798.00 m 547.00 798.00 l S Q
+BT 0.450 0.450 0.450 rg /F3 8.50 Tf 48.00 769.00 Td (05) Tj ET
+BT 0.040 0.040 0.040 rg /F2 11.50 Tf 70.00 769.00 Td (Core Data Entities & State Schema) Tj ET
+q 0.080 0.080 0.080 RG 0.75 w 48.00 764.00 m 547.00 764.00 l S Q
+q 0.950 0.950 0.950 rg 48.00 734.00 499.00 21.00 re f Q
+q 0.150 0.150 0.150 RG 0.70 w 48.00 755.00 m 547.00 755.00 l S Q
+q 0.650 0.650 0.650 RG 0.60 w 48.00 734.00 m 547.00 734.00 l S Q
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 54.50 740.50 Td (ENTITY) Tj ET
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 130.50 740.50 Td (KEY FIELDS) Tj ET
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 328.50 740.50 Td (PERSISTENCE & RELATIONSHIPS) Tj ET
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 722.50 Td (Student) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 130.50 722.50 Td (id, name, email, rollNumber, password,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 130.50 711.50 Td (canAccessAdmin, isVerified, cgpa, branch, year,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 130.50 700.50 Td (skills[], projects[], internships[], certifications[],) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 130.50 689.50 Td (badges[], status) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 328.50 722.50 Td (Stored in mediconnect_students_v3; migrated on load so) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 328.50 711.50 Td (student-1 \(Gourav Vyas\) dual-role credentials stay) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 328.50 700.50 Td (synced.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 680.00 m 547.00 680.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 669.50 Td (Certification) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 130.50 669.50 Td (id, studentId, name, issuer, issueDate,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 130.50 658.50 Td (credentialUrl, fileDataUrl, fileName, fileType) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 328.50 669.50 Td (Embedded inside Student.certifications[]; fileDataUrl) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 328.50 658.50 Td (powers inline preview modal & file download.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 649.00 m 547.00 649.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 638.50 Td (Post &) Tj ET
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 627.50 Td (Comment) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 130.50 638.50 Td (id, studentId, category, content, mediaUrl, tags[],) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 130.50 627.50 Td (likes, comments[], isPinned, isLocked,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 130.50 616.50 Td (isReported, moderatedByAdmin) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 328.50 638.50 Td (Stored in mediconnect_posts_v3; linked to ReportedItem) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 328.50 627.50 Td (moderation queue and bookmark IDs.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 607.00 m 547.00 607.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 596.50 Td (Challenge) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 130.50 596.50 Td (id, title, category, status, bannerImage, prize,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 130.50 585.50 Td (pointsReward, participants[], submissions[]) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 328.50 596.50 Td (Stored in mediconnect_challenges_v3; submissions) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 328.50 585.50 Td (store projectUrl, notes, winner, and disqualification) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 328.50 574.50 Td (metadata.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 565.00 m 547.00 565.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 554.50 Td (AdminAuditLog) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 130.50 554.50 Td (id, actionType, targetTitle, details, adminName,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 130.50 543.50 Td (timestamp) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 328.50 554.50 Td (Stored in mediconnect_audit_logs_v2; immutable) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 328.50 543.50 Td (append-only feed rendered in AdminDashboard.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 534.00 m 547.00 534.00 l S Q
+BT 0.450 0.450 0.450 rg /F3 8.50 Tf 48.00 519.00 Td (06) Tj ET
+BT 0.040 0.040 0.040 rg /F2 11.50 Tf 70.00 519.00 Td (Security, Performance & Non-Functional Requirements) Tj ET
+q 0.080 0.080 0.080 RG 0.75 w 48.00 514.00 m 547.00 514.00 l S Q
+q 0.100 0.100 0.100 rg 52.00 502.30 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 500.00 Td (Access Control Invariants: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (AppContext enforces effectiveIsAdmin = isAdminState &&) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 487.80 Td (isAdminCapableStudent\(currentUser\). Logout clears both currentUserId and isAdminState; suspended accounts are blocked) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 475.60 Td (on login.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 463.50 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 461.20 Td (Responsive Compatibility: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Supports 390px mobile viewports \(MobileNav + drawer\) through 1440px+ desktop layouts) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 449.00 Td (\(Sidebar + multi-column grids\). DifferenceCursor mounts strictly on fine-pointer hover devices.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 436.90 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 434.60 Td (Visual & Motion Discipline: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (1px black/10% borders, 700ms grayscale-to-color hover transitions,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 422.40 Td (cubic-bezier\(0.16,1,0.3,1\) reveals, and zero unverified runtime external API dependencies.) Tj ET
+BT 0.450 0.450 0.450 rg /F3 8.50 Tf 48.00 403.00 Td (07) Tj ET
+BT 0.040 0.040 0.040 rg /F2 11.50 Tf 70.00 403.00 Td (Build Verification & Traceability Matrix) Tj ET
+q 0.080 0.080 0.080 RG 0.75 w 48.00 398.00 m 547.00 398.00 l S Q
+q 0.950 0.950 0.950 rg 48.00 368.00 499.00 21.00 re f Q
+q 0.150 0.150 0.150 RG 0.70 w 48.00 389.00 m 547.00 389.00 l S Q
+q 0.650 0.650 0.650 RG 0.60 w 48.00 368.00 m 547.00 368.00 l S Q
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 54.50 374.50 Td (CHECK / REQ) Tj ET
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 136.50 374.50 Td (VERIFICATION METHOD / TARGET MODULE) Tj ET
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 321.50 374.50 Td (EXPECTED OUTCOME) Tj ET
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 356.50 Td (Type Safety) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 136.50 356.50 Td (tsc --noEmit \(npm run lint\)) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 321.50 356.50 Td (Compiles cleanly with zero TypeScript syntax or type) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 321.50 345.50 Td (errors.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 336.00 m 547.00 336.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 325.50 Td (Prod Bundle) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 136.50 325.50 Td (vite build \(npm run build\)) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 321.50 325.50 Td (Generates optimized static SPA bundles cleanly into dist/.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 316.00 m 547.00 316.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 305.50 Td (Auth Trace) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 136.50 305.50 Td (PRD 5.1 -> FR-01, FR-02 -> LoginView /) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 136.50 294.50 Td (AppContext) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 321.50 305.50 Td (Strict @medicaps.ac.in parsing + password-gated Gourav) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 321.50 294.50 Td (Vyas Admin toggle.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 285.00 m 547.00 285.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 274.50 Td (Portfolio Trace) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 136.50 274.50 Td (PRD 5.2-5.3 -> FR-03, FR-04 ->) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 136.50 263.50 Td (ProfileView / scoring.ts) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 321.50 274.50 Td (Certificate upload/preview works; 100-pt rank) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 321.50 263.50 Td (recalculates live.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 254.00 m 547.00 254.00 l S Q
+q 0.860 0.860 0.860 RG 0.60 w 48.00 42.00 m 547.00 42.00 l S Q
+BT 0.450 0.450 0.450 rg /F3 7.50 Tf 48.00 28.00 Td (MEDICONNECT CAMPUS NETWORK  |  MEDI-CAPS UNIVERSITY, INDORE) Tj ET
+BT 0.450 0.450 0.450 rg /F3 7.50 Tf 511.00 28.00 Td (PAGE 3) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R /F4 4 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 5 0 R >>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000000228 00000 n 
+0000000301 00000 n 
+0000000371 00000 n 
+0000006627 00000 n 
+0000006783 00000 n 
+0000012514 00000 n 
+0000012670 00000 n 
+0000021105 00000 n 
+0000021263 00000 n 
+trailer
+<< /Size 13 /Root 12 0 R >>
+startxref
+21313
+%%EOF

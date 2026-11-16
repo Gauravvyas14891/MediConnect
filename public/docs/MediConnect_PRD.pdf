@@ -1,0 +1,225 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+5 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R] /Count 2 >>
+endobj
+6 0 obj
+<< /Length 8115 >>
+stream
+q 0.040 0.040 0.040 rg 0.00 732.00 595.00 110.00 re f Q
+BT 0.680 0.680 0.680 rg /F3 8.50 Tf 48.00 804.00 Td (PRD-MC-2026) Tj ET
+BT 1.000 1.000 1.000 rg /F2 18.50 Tf 48.00 778.00 Td (PRODUCT REQUIREMENTS DOCUMENT \(PRD\)) Tj ET
+BT 0.780 0.780 0.780 rg /F1 9.00 Tf 48.00 756.00 Td (MediConnect Platform  |  Medi-Caps University, Indore  |  v2.4  |  Author: Gourav Vyas \(en24cs3040061@medicaps.ac.in\)) Tj ET
+BT 0.450 0.450 0.450 rg /F3 8.50 Tf 48.00 703.00 Td (01) Tj ET
+BT 0.040 0.040 0.040 rg /F2 11.50 Tf 70.00 703.00 Td (Executive Summary & Product Vision) Tj ET
+q 0.080 0.080 0.080 RG 0.75 w 48.00 698.00 m 547.00 698.00 l S Q
+BT 0.160 0.160 0.160 rg /F1 9.00 Tf 48.00 684.00 Td (MediConnect is a dedicated digital campus platform built exclusively for students at Medi-Caps University, Indore.) Tj ET
+BT 0.160 0.160 0.160 rg /F1 9.00 Tf 48.00 671.40 Td (Engineering students frequently scatter repositories across GitHub, store hackathon certificates in local folders, and struggle) Tj ET
+BT 0.160 0.160 0.160 rg /F1 9.00 Tf 48.00 658.80 Td (to find reliable project teammates across departments. MediConnect unifies student portfolios, transparent merit rankings,) Tj ET
+BT 0.160 0.160 0.160 rg /F1 9.00 Tf 48.00 646.20 Td (peer discovery, campus sprints, and ethical moderation inside a single college-verified network.) Tj ET
+BT 0.450 0.450 0.450 rg /F3 8.50 Tf 48.00 625.60 Td (02) Tj ET
+BT 0.040 0.040 0.040 rg /F2 11.50 Tf 70.00 625.60 Td (Problem Statement & Product Objectives) Tj ET
+q 0.080 0.080 0.080 RG 0.75 w 48.00 620.60 m 547.00 620.60 l S Q
+q 0.100 0.100 0.100 rg 52.00 608.90 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 606.60 Td (Fragmented Proof of Work: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Resumes rarely reflect verified technical builds, live deployments, or peer-endorsed skills.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 594.50 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 592.20 Td (Opaque Campus Standings: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Students lack a clear, objective rubric showing how academics, projects, internships, and) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 580.00 Td (coding combine.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 567.90 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 565.60 Td (Cross-Branch Silos: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Builders across CSE, AI & ML, IT, ECE, Data Science, Mechanical, Civil, and EE lack fast) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 553.40 Td (teammate discovery.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 541.30 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 539.00 Td (Authentic Campus Identity: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Only verified @medicaps.ac.in student accounts may register, eliminating spam and) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 526.80 Td (non-campus clutter.) Tj ET
+BT 0.450 0.450 0.450 rg /F3 8.50 Tf 48.00 507.40 Td (03) Tj ET
+BT 0.040 0.040 0.040 rg /F2 11.50 Tf 70.00 507.40 Td (User Personas & Role Permissions) Tj ET
+q 0.080 0.080 0.080 RG 0.75 w 48.00 502.40 m 547.00 502.40 l S Q
+q 0.950 0.950 0.950 rg 48.00 472.40 499.00 21.00 re f Q
+q 0.150 0.150 0.150 RG 0.70 w 48.00 493.40 m 547.00 493.40 l S Q
+q 0.650 0.650 0.650 RG 0.60 w 48.00 472.40 m 547.00 472.40 l S Q
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 54.50 478.90 Td (ROLE / PERSONA) Tj ET
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 152.50 478.90 Td (AUTHENTICATION RULE) Tj ET
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 330.50 478.90 Td (PRIMARY CAPABILITIES & BOUNDARIES) Tj ET
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 460.90 Td (Public Visitor) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 460.90 Td (Unauthenticated entry) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 330.50 460.90 Td (Views the monochrome editorial showcase, project) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 330.50 449.90 Td (marquee, and sprint highlights; transitions cleanly to) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 330.50 438.90 Td (@medicaps.ac.in Sign In or Registration.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 429.40 m 547.00 429.40 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 418.90 Td (Verified Student) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 418.90 Td (en<2yr><branch><6-7digits>) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 407.90 Td (@medicaps.ac.in + Password) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 330.50 418.90 Td (Builds portfolio, uploads PDF/image certificates, joins) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 330.50 407.90 Td (challenges, posts in community feed, endorses skills,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 330.50 396.90 Td (and inspects personal score breakdown.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 387.40 m 547.00 387.40 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 376.90 Td (Dual Student +) Tj ET
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 365.90 Td (Admin) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 376.90 Td (en24cs3040061@medicaps.ac.in \(Gourav) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 365.90 Td (Vyas\) + Password) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 330.50 376.90 Td (Opens verified student profile directly on sign-in;) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 330.50 365.90 Td (switches between Normal Student Access and Campus) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 330.50 354.90 Td (Admin Governance from profile or navigation.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 345.40 m 547.00 345.40 l S Q
+BT 0.450 0.450 0.450 rg /F3 8.50 Tf 48.00 330.40 Td (04) Tj ET
+BT 0.040 0.040 0.040 rg /F2 11.50 Tf 70.00 330.40 Td (Success Metrics & Platform Baseline) Tj ET
+q 0.080 0.080 0.080 RG 0.75 w 48.00 325.40 m 547.00 325.40 l S Q
+q 0.950 0.950 0.950 rg 48.00 295.40 499.00 21.00 re f Q
+q 0.150 0.150 0.150 RG 0.70 w 48.00 316.40 m 547.00 316.40 l S Q
+q 0.650 0.650 0.650 RG 0.60 w 48.00 295.40 m 547.00 295.40 l S Q
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 54.50 301.90 Td (METRIC) Tj ET
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 162.50 301.90 Td (CURRENT TARGET) Tj ET
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 307.50 301.90 Td (PRODUCT RATIONALE) Tj ET
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 283.90 Td (Directory Coverage) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 162.50 283.90 Td (100+ verified student profiles) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 307.50 283.90 Td (Representative multi-year, multi-branch dataset spanning all) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 307.50 272.90 Td (8 engineering streams.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 263.40 m 547.00 263.40 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 252.90 Td (Community & Sprints) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 162.50 252.90 Td (22+ posts, 11 student challenges) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 307.50 252.90 Td (Realistic campus discussions, referral leads, DSA sprints,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 307.50 241.90 Td (and IoT/AI hackathons.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 232.40 m 547.00 232.40 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 221.90 Td (Formula Transparency) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 162.50 221.90 Td (100% open 100-pt rubric) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 307.50 221.90 Td (Every student inspects exact point weights \(40% CGPA, 20%) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 307.50 210.90 Td (Projects, 20% Internships, 20% Skills/Coding\).) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 201.40 m 547.00 201.40 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 190.90 Td (Zero Unverified Admin) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 162.50 190.90 Td (100% credential-gated admin) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 307.50 190.90 Td (Eliminates unauthenticated bypasses; strictly restricted to) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 307.50 179.90 Td (Gourav Vyas student-admin credentials.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 170.40 m 547.00 170.40 l S Q
+q 0.860 0.860 0.860 RG 0.60 w 48.00 42.00 m 547.00 42.00 l S Q
+BT 0.450 0.450 0.450 rg /F3 7.50 Tf 48.00 28.00 Td (MEDICONNECT CAMPUS NETWORK  |  MEDI-CAPS UNIVERSITY, INDORE) Tj ET
+BT 0.450 0.450 0.450 rg /F3 7.50 Tf 511.00 28.00 Td (PAGE 1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R /F4 4 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 8612 >>
+stream
+BT 0.450 0.450 0.450 rg /F3 8.00 Tf 48.00 806.00 Td (PRD-MC-2026) Tj ET
+BT 0.050 0.050 0.050 rg /F2 8.50 Tf 437.00 806.00 Td (MediConnect Platform) Tj ET
+q 0.860 0.860 0.860 RG 0.75 w 48.00 798.00 m 547.00 798.00 l S Q
+BT 0.450 0.450 0.450 rg /F3 8.50 Tf 48.00 769.00 Td (05) Tj ET
+BT 0.040 0.040 0.040 rg /F2 11.50 Tf 70.00 769.00 Td (Core Feature Requirements) Tj ET
+q 0.080 0.080 0.080 RG 0.75 w 48.00 764.00 m 547.00 764.00 l S Q
+BT 0.040 0.040 0.040 rg /F2 9.60 Tf 48.00 748.00 Td (5.1 Editorial Showcase & Institutional Authentication) Tj ET
+q 0.100 0.100 0.100 rg 52.00 737.30 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 735.00 Td (Editorial Public Showcase: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Typography-first black-and-white landing experience featuring staggered headline reveal,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 722.80 Td (asymmetric 5:7 sprint marquee, and 4:3 project showcase grid.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 710.70 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 708.40 Td (Strict Mail Format Parsing: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Validates en<2yr><branch><6-7digits>@medicaps.ac.in, auto-populating uppercase) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 696.20 Td (enrollment number \(EN...\) and engineering branch.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 684.10 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 681.80 Td (Password-Protected Dual Role: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Gourav Vyas \(en24cs3040061@medicaps.ac.in\) enters ProfileView first and toggles into) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 669.60 Td (Admin Mode via authenticated role controls.) Tj ET
+BT 0.040 0.040 0.040 rg /F2 9.60 Tf 48.00 653.20 Td (5.2 Student Portfolio & Certificate File Vault) Tj ET
+q 0.100 0.100 0.100 rg 52.00 642.50 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 640.20 Td (Structured Engineering Profile: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Displays CGPA, branch/semester, peer-endorsed skills, projects with GitHub/demo) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 628.00 Td (links, internships, badges, and coding links.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 615.90 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 613.60 Td (Certificate File Uploads: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Students attach PDF, PNG, JPG, or WebP credentials \(up to 3 MB\), preview files in an in-app) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 601.40 Td (modal viewer, and download attachments.) Tj ET
+BT 0.040 0.040 0.040 rg /F2 9.60 Tf 48.00 585.00 Td (5.3 Formulaic Campus Leaderboard & Discovery) Tj ET
+q 0.100 0.100 0.100 rg 52.00 574.30 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 572.00 Td (Live Recalculated Ranking: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Rankings recalculate dynamically whenever projects, internships, certifications, or CGPA are) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 559.80 Td (added or edited.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 547.70 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 545.40 Td (Multi-Faceted Directory: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Paginated student directory with branch, academic year, skill search, and instant Cmd+K global) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 533.20 Td (search modal.) Tj ET
+BT 0.040 0.040 0.040 rg /F2 9.60 Tf 48.00 516.80 Td (5.4 Community Feed, Challenges & Campus Governance) Tj ET
+q 0.100 0.100 0.100 rg 52.00 506.10 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 503.80 Td (Community Collaboration: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Supports categorized posts \(Opportunities, Hackathons, Team Formation, Projects, Help\),) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 491.60 Td (likes, nested comments, bookmarks, and reports.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 479.50 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 477.20 Td (Challenges & Hackathons: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Includes 11 curated sprints \(30-Day LeetCode/DSA, AI Buildathon, Full-Stack Sprint,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 465.00 Td (Hardware IoT, UI/UX\) with join and submission tracking.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 452.90 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 450.60 Td (Admin Governance Center: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Authorized admin verifies students/projects, pins/locks/edits/deletes posts,) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 438.40 Td (warns/suspends accounts, declares winners, broadcasts notices, and audits logs.) Tj ET
+BT 0.450 0.450 0.450 rg /F3 8.50 Tf 48.00 419.00 Td (06) Tj ET
+BT 0.040 0.040 0.040 rg /F2 11.50 Tf 70.00 419.00 Td (Non-Functional & Scope Boundaries) Tj ET
+q 0.080 0.080 0.080 RG 0.75 w 48.00 414.00 m 547.00 414.00 l S Q
+q 0.100 0.100 0.100 rg 52.00 402.30 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 400.00 Td (Strict Student Focus: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Zero faculty grading or attendance surveillance; built purely for peer showcasing, mentorship, and) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 387.80 Td (campus community ethics.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 375.70 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 373.40 Td (Monochrome Visual Discipline: ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Inter & JetBrains Mono typography, #FFFFFF/#000000/#0A0A0A high-contrast) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 361.20 Td (surfaces, 1px hairline borders, grayscale-to-color hover media, and DifferenceCursor.) Tj ET
+q 0.100 0.100 0.100 rg 52.00 349.10 3.20 1.40 re f Q
+BT 0.040 0.040 0.040 rg /F2 8.90 Tf 62.00 346.80 Td (Out of Scope \(Phase 1\): ) Tj 0.170 0.170 0.170 rg /F1 8.90 Tf (Third-party OAuth providers, external corporate recruiter job boards, and real-time audio/video) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.90 Tf 62.00 334.60 Td (conferencing.) Tj ET
+BT 0.450 0.450 0.450 rg /F3 8.50 Tf 48.00 315.20 Td (07) Tj ET
+BT 0.040 0.040 0.040 rg /F2 11.50 Tf 70.00 315.20 Td (Release Readiness & Acceptance Gate) Tj ET
+q 0.080 0.080 0.080 RG 0.75 w 48.00 310.20 m 547.00 310.20 l S Q
+q 0.950 0.950 0.950 rg 48.00 280.20 499.00 21.00 re f Q
+q 0.150 0.150 0.150 RG 0.70 w 48.00 301.20 m 547.00 301.20 l S Q
+q 0.650 0.650 0.650 RG 0.60 w 48.00 280.20 m 547.00 280.20 l S Q
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 54.50 286.70 Td (GATE) Tj ET
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 152.50 286.70 Td (OWNER PERSONA) Tj ET
+BT 0.280 0.280 0.280 rg /F3 7.40 Tf 254.50 286.70 Td (VERIFICATION SIGN-OFF CONDITION) Tj ET
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 268.70 Td (Campus Onboarding) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 268.70 Td (Verified Student) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 254.50 268.70 Td (Invalid/non-medicaps emails rejected at login/signup; valid college emails) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 254.50 257.70 Td (extract branch & year accurately.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 248.20 m 547.00 248.20 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 237.70 Td (Dual-Role Security) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 237.70 Td (Gourav Vyas) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 254.50 237.70 Td (No unauthenticated admin button on login; admin toggle visible strictly after) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 254.50 226.70 Td (en24cs3040061@medicaps.ac.in login.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 217.20 m 547.00 217.20 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 206.70 Td (Portfolio Integrity) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 206.70 Td (Verified Student) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 254.50 206.70 Td (Certificate attachments preview smoothly in-app; score breakdown and) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 254.50 195.70 Td (leaderboard rank update immediately.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 186.20 m 547.00 186.20 l S Q
+BT 0.040 0.040 0.040 rg /F2 8.40 Tf 54.50 175.70 Td (Governance Trail) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 152.50 175.70 Td (Campus Admin) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 254.50 175.70 Td (Moderation, verification, and challenge winner declarations persist across) Tj ET
+BT 0.170 0.170 0.170 rg /F1 8.40 Tf 254.50 164.70 Td (reloads and record audit logs.) Tj ET
+q 0.900 0.900 0.900 RG 0.50 w 48.00 155.20 m 547.00 155.20 l S Q
+q 0.860 0.860 0.860 RG 0.60 w 48.00 42.00 m 547.00 42.00 l S Q
+BT 0.450 0.450 0.450 rg /F3 7.50 Tf 48.00 28.00 Td (MEDICONNECT CAMPUS NETWORK  |  MEDI-CAPS UNIVERSITY, INDORE) Tj ET
+BT 0.450 0.450 0.450 rg /F3 7.50 Tf 511.00 28.00 Td (PAGE 2) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 5 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R /F4 4 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 5 0 R >>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000000228 00000 n 
+0000000301 00000 n 
+0000000364 00000 n 
+0000008531 00000 n 
+0000008687 00000 n 
+0000017351 00000 n 
+0000017507 00000 n 
+trailer
+<< /Size 11 /Root 10 0 R >>
+startxref
+17557
+%%EOF

@@ -1,0 +1,6 @@
+{
+  "name": "MediConnect",
+  "description": "Digital campus platform for college students: showcase academic achievements, projects, skills, discover peers, compete on leaderboards, and join campus challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
